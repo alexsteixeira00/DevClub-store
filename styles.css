@@ -213,7 +213,7 @@ header nav ul li:hover::after {
 .btn:hover {
     background: linear-gradient(90deg, #ff0099, #0008ff);
     color: #fff;
-    transform: scale(2.5);
+    transform: scale(2.0);
     }
 
 .arrows {
