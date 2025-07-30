@@ -212,7 +212,7 @@ header nav ul li:hover::after {
 .btn:hover {
     background: linear-gradient(90deg, #ff0099, #0008ff);
     color: #fff;
-    transform: scale(2.0)
+    transform: scale(2.0);
     }
 
 .arrows {
@@ -324,5 +324,126 @@ header nav ul li:hover::after {
     left: 70%;
 }
 
+@media (max-width: 1024px) {
+  .product-name {
+    font-size: 3rem;
+  }
 
+  .description {
+    font-size: 1rem;
+  }
+
+  .list {
+    margin-left: 80px;
+  }
+
+  .content {
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  header nav ul {
+    gap: 24px;
+  }
+
+  .list {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .item {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-top: 60px;
+  }
+
+  .product-img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+  .product-img img {
+    max-width: 70%;
+    max-height: 200px;
+  }
+
+  .content {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .product-name {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+
+  .arrows {
+    width: 100%;
+  }
+
+  .arrow-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .numbers {
+    font-size: 2rem;
+  }
+
+  .dot {
+    width: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-name {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  .arrow-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .dots {
+    gap: 5px;
+  }
+
+  .dot {
+    width: 20px;
+  }
+}
 
